@@ -94,3 +94,16 @@ try:
     # Envia o email
     pyautogui.hotkey("ctrl", "enter")
     time.sleep(5)
+
+    # Navega com a tecla Tab até acessar a opção "Sair" para realizar o logout
+    for i in range(24):
+        pyautogui.press('tab')
+
+    time.sleep(2)
+    pyautogui.press('enter')
+    time.sleep(3)
+    pyautogui.press('tab')
+    pyautogui.press('tab')
+    pyautogui.press('tab')
+    # Conclui o logout
+    pyautogui.press('enter')
