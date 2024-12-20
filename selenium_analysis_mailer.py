@@ -107,3 +107,8 @@ try:
     pyautogui.press('tab')
     # Conclui o logout
     pyautogui.press('enter')
+
+finally:
+    # Aguarda 10 segundos antes de fechar o navegador para garantir que todas as ações foram concluídas
+    time.sleep(15)
+    driver.quit()
