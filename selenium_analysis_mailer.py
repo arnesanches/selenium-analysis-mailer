@@ -39,3 +39,32 @@ mensagem = (
     f"- Loja com maior faturamento: {loja_maior_faturamento} (Faturamento: R$ {faturamento_loja:,.2f})\n\n"
     f"Atenciosamente,\nSeu sistema automatizado."
 )
+
+# ======== Automação com Selenium: Envio automatizado de email =========
+try:
+    # Abrindo o Outlook para iniciar o processo de envio do email
+    driver.get("https://outlook.live.com/owa/")
+
+    # Aguarda até que o botão "Entrar" esteja disponível
+    wait = WebDriverWait(driver, 30)
+    botao_entrar = wait.until(EC.element_to_be_clickable((By.LINK_TEXT, "Entrar")))
+    botao_entrar.click()
+
+    # Pausa para garantir que a página de login carregue completamente
+    time.sleep(5)
+
+    # Inicia o login inserindo o endereço do email criado para o código
+    pyautogui.write("teste.automatizado@outlook.com")
+    pyautogui.press('tab')
+    pyautogui.press('tab')
+    pyautogui.press('enter')
+    time.sleep(5)
+    # Insere senha para concluir o login
+    pyautogui.write("TesteAutomatizado123")
+    pyautogui.press('tab')
+    pyautogui.press('tab')
+    pyautogui.press('tab')
+    pyautogui.press('enter')
+    time.sleep(2)
+    pyautogui.press('enter')
+    time.sleep(5)
