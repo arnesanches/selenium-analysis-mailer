@@ -68,3 +68,29 @@ try:
     time.sleep(2)
     pyautogui.press('enter')
     time.sleep(5)
+    # Direciona para a opção "Novo email"
+    pyautogui.hotkey('crtl', 'alt')
+    pyautogui.press('tab')
+    pyautogui.press('enter')
+    time.sleep(3)
+    # Insere o endereço de email do destinatário
+    pyautogui.write("diretoria@empresa.com")
+    time.sleep(2)
+    pyautogui.press('tab')
+    pyautogui.press('tab')
+    time.sleep(2)
+    # Informa o assunto da mensagem
+    pyautogui.write("Resumo de Vendas - Dezembro")
+    pyautogui.press('enter')
+    time.sleep(2)
+    # Cola a mensagem gerada no corpo do email
+    pyperclip.copy(mensagem)
+    pyautogui.hotkey("ctrl", "v")
+    time.sleep(5)
+    pyautogui.press('tab')
+    pyautogui.press('tab')
+    pyautogui.press('enter')
+    time.sleep(2)
+    # Envia o email
+    pyautogui.hotkey("ctrl", "enter")
+    time.sleep(5)
