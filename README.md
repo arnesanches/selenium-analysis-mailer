@@ -16,9 +16,9 @@ This repository contains a script that performs data analysis on an Excel file, 
 
 The script processes data from the Excel file to identify:
 
-The best-selling product and its total quantity.
+* The best-selling product and its total quantity.
 
-The store with the highest revenue and its corresponding value.
+* The store with the highest revenue and its corresponding value.
 
 #### Automated Email Sending:
 
@@ -33,7 +33,6 @@ After sending the email, the script logs out of Outlook and closes the browser t
 #### Security:
 
 Email credentials are embedded in the code as plain text. For a production environment, it is recommended to use a secret manager or environment variables to protect sensitive information.
-Outlook Layout Dependency:
 
 #### Outlook Layout Dependency:
 
@@ -41,11 +40,11 @@ The Outlook Online layout changes frequently. If the script stops working correc
 
 ### Requirements
 
-Ensure that the Excel file Vendas - Dez.xlsx is located in the same folder as the script. This file is essential for executing the code as it serves as the data source for the analysis.
+* Ensure that the Excel file Vendas - Dez.xlsx is located in the same folder as the script. This file is essential for executing the code as it serves as the data source for the analysis.
 
-Install the Google Chrome browser on your machine, as it is used by Selenium for automation.
+* Install the Google Chrome browser on your machine, as it is used by Selenium for automation.
 
-Install the required libraries before running the code. To install them, use the following command:
+* Install the required libraries before running the code. To install them, use the following command:
 
 #### pip install pandas selenium webdriver-manager pyautogui pyperclip
 
@@ -63,9 +62,9 @@ Open the notebook in a Jupyter environment and execute the cells sequentially.
 
 The script is available in both .py and .ipynb formats to cater to different needs:
 
-.py Format: Ideal for direct execution in production environments or integration into automated pipelines.
+#### .py Format: Ideal for direct execution in production environments or integration into automated pipelines.
 
-.ipynb Format: Suitable for study, demonstrations, or experimentation in an interactive environment such as Jupyter Notebook.
+#### .ipynb Format: Suitable for study, demonstrations, or experimentation in an interactive environment such as Jupyter Notebook.
 
 ### Contact
 
@@ -91,9 +90,9 @@ Este repositório contém um script que realiza a análise de dados de um arquiv
 
 O script processa os dados do arquivo Excel para identificar:
 
-O produto mais vendido e sua quantidade total.
+* O produto mais vendido e sua quantidade total.
 
-A loja com maior faturamento e o valor correspondente.
+* A loja com maior faturamento e o valor correspondente.
 
 #### Envio Automatizado de E-mail:
 
@@ -115,11 +114,11 @@ O layout do Outlook Online muda com frequência. Caso o script pare de funcionar
 
 ### Requisitos
 
-Certifique-se de que o arquivo Excel Vendas - Dez.xlsx esteja localizado na mesma pasta que o script. Este arquivo é essencial para a execução do código, pois serve como fonte de dados para a análise.
+* Certifique-se de que o arquivo Excel Vendas - Dez.xlsx esteja localizado na mesma pasta que o script. Este arquivo é essencial para a execução do código, pois serve como fonte de dados para a análise.
 
-Instale o navegador Google Chrome na máquina, pois ele é usado pelo Selenium para automação.
+* Instale o navegador Google Chrome na máquina, pois ele é usado pelo Selenium para automação.
 
-Instale as bibliotecas necessárias antes de executar o código. Para instalá-las, use o seguinte comando:
+* Instale as bibliotecas necessárias antes de executar o código. Para instalá-las, use o seguinte comando:
 
 #### pip install pandas selenium webdriver-manager pyautogui pyperclip
 
