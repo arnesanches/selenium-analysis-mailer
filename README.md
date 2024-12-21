@@ -6,9 +6,9 @@
 
 This repository contains a script that performs data analysis on an Excel file, generates insights, and automatically sends an email with this information via Outlook. The script also logs out and closes the browser after completing the email sending process. The script is available in the following formats:
 
-#### Python File: script.py
+* Python File: script.py
 
-#### Jupyter Notebook: script.ipynb
+* Jupyter Notebook: script.ipynb
 
 ### Features
 
@@ -22,11 +22,11 @@ The script processes data from the Excel file to identify:
 
 #### Automated Email Sending:
 
-Uses Selenium to access Outlook on the web and automatically send an email containing the generated insights.
+* Uses Selenium to access Outlook on the web and automatically send an email containing the generated insights.
 
 #### Logout and Browser Closure:
 
-After sending the email, the script logs out of Outlook and closes the browser to ensure security and clean up the environment.
+* After sending the email, the script logs out of Outlook and closes the browser to ensure security and clean up the environment.
 
 ### Important Notes
 
@@ -52,19 +52,19 @@ The Outlook Online layout changes frequently. If the script stops working correc
 
 #### .py Format:
 
-Run the script directly using the command: python script.py.
+* Run the script directly using the command: python script.py.
 
 #### .ipynb Format:
 
-Open the notebook in a Jupyter environment and execute the cells sequentially.
+* Open the notebook in a Jupyter environment and execute the cells sequentially.
 
 ### Reason for the Two Formats
 
 The script is available in both .py and .ipynb formats to cater to different needs:
 
-#### .py Format: Ideal for direct execution in production environments or integration into automated pipelines.
+* .py Format: Ideal for direct execution in production environments or integration into automated pipelines.
 
-#### .ipynb Format: Suitable for study, demonstrations, or experimentation in an interactive environment such as Jupyter Notebook.
+* .ipynb Format: Suitable for study, demonstrations, or experimentation in an interactive environment such as Jupyter Notebook.
 
 ### Contact
 
@@ -80,9 +80,9 @@ If you encounter any issues or have suggestions, feel free to open an issue in t
 
 Este repositório contém um script que realiza a análise de dados de um arquivo Excel, gera insights e envia automaticamente um e-mail com essas informações através do Outlook. O script também realiza logout e fecha o navegador após concluir o envio do e-mail. O script está disponível nos seguintes formatos:
 
-#### Arquivo Python: script.py
+* Arquivo Python: script.py
 
-#### Notebook Jupyter: script.ipynb
+* Notebook Jupyter: script.ipynb
 
 ### Funcionalidades
 
@@ -96,11 +96,11 @@ O script processa os dados do arquivo Excel para identificar:
 
 #### Envio Automatizado de E-mail:
 
-Utiliza o Selenium para acessar o Outlook na web e enviar automaticamente um e-mail contendo os insights gerados.
+* Utiliza o Selenium para acessar o Outlook na web e enviar automaticamente um e-mail contendo os insights gerados.
 
 #### Logout e Fechamento do Navegador:
 
-Após o envio do e-mail, o script realiza logout do Outlook e fecha o navegador para garantir segurança e limpeza do ambiente.
+* Após o envio do e-mail, o script realiza logout do Outlook e fecha o navegador para garantir segurança e limpeza do ambiente.
 
 ### Observações Importantes
 
@@ -126,19 +126,19 @@ O layout do Outlook Online muda com frequência. Caso o script pare de funcionar
 
 #### Formato .py:
 
-Execute o script diretamente com o comando: python script.py.
+* Execute o script diretamente com o comando: python script.py.
 
 #### Formato .ipynb:
 
-Abra o notebook em um ambiente Jupyter e execute as células sequencialmente.
+* Abra o notebook em um ambiente Jupyter e execute as células sequencialmente.
 
 ### Motivo para os Dois Formatos
 
 O script está disponível tanto no formato .py quanto no formato .ipynb para atender a diferentes necessidades:
 
-#### Formato .py: Ideal para execução direta em ambientes de produção ou integração em pipelines automatizados.
+* Formato .py: Ideal para execução direta em ambientes de produção ou integração em pipelines automatizados.
 
-#### Formato .ipynb: Adequado para estudos, demonstrações ou experimentações em um ambiente interativo, como o Jupyter Notebook.
+* Formato .ipynb: Adequado para estudos, demonstrações ou experimentações em um ambiente interativo, como o Jupyter Notebook.
 
 ### Contato
 
