@@ -4,9 +4,9 @@
 
 This repository contains a script that performs data analysis on an Excel file, generates insights, and automatically sends an email with this information via Outlook. The script also logs out and closes the browser after completing the email sending process. The script is available in the following formats:
 
-Python File: script.py
+#### Python File: script.py
 
-Jupyter Notebook: script.ipynb
+#### Jupyter Notebook: script.ipynb
 
 ### Features
 
@@ -32,6 +32,8 @@ After sending the email, the script logs out of Outlook and closes the browser t
 
 Email credentials are embedded in the code as plain text. For a production environment, it is recommended to use a secret manager or environment variables to protect sensitive information.
 Outlook Layout Dependency:
+
+#### Outlook Layout Dependency:
 
 The Outlook Online layout changes frequently. If the script stops working correctly, it might be necessary to adjust the selectors or commands used to interact with the interface.
 
