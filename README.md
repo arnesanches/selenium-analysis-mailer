@@ -2,9 +2,7 @@
 
 # Selenium Analysis Mailer
 
-### Description
-
-This repository contains a script that performs data analysis on an Excel file, generates insights, and automatically sends an email with this information via Outlook. The script also logs out and closes the browser after completing the email sending process. The script is available in the following formats:
+This project performs data analysis on an Excel file, generates insights, and automatically sends an email with this information via Outlook. The script also logs out and closes the browser after completing the email sending process. The script is available in the following formats:
 
 * Python File: script.py
 
@@ -76,9 +74,7 @@ If you encounter any issues or have suggestions, feel free to open an issue in t
 
 # Selenium Analysis Mailer
 
-### Descrição
-
-Este repositório contém um script que realiza a análise de dados de um arquivo Excel, gera insights e envia automaticamente um e-mail com essas informações através do Outlook. O script também realiza logout e fecha o navegador após concluir o envio do e-mail. O script está disponível nos seguintes formatos:
+Este projeto realiza a análise de dados de um arquivo Excel, gera insights e envia automaticamente um e-mail com essas informações através do Outlook. O script também realiza logout e fecha o navegador após concluir o envio do e-mail. O script está disponível nos seguintes formatos:
 
 * Arquivo Python: script.py
 
