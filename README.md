@@ -1,4 +1,4 @@
-### English
+#### English
 
 # Selenium Analysis Mailer
 
@@ -72,7 +72,7 @@ If you encounter any issues or have suggestions, feel free to open an issue in t
 
 ---
 
-### Português 
+#### Português 
 
 # Selenium Analysis Mailer
 
