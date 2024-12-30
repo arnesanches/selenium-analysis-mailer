@@ -10,7 +10,7 @@ This project performs data analysis on an Excel file, generates insights, and au
 
 ## Features
 
-#### Data Analysis:
+### Data Analysis:
 
 The script processes data from the Excel file to identify:
 
@@ -18,21 +18,21 @@ The script processes data from the Excel file to identify:
 
 * The store with the highest revenue and its corresponding value.
 
-#### Automated Email Sending:
+### Automated Email Sending:
 
 * Uses Selenium to access Outlook on the web and automatically send an email containing the generated insights.
 
-#### Logout and Browser Closure:
+### Logout and Browser Closure:
 
 * After sending the email, the script logs out of Outlook and closes the browser to ensure security and clean up the environment.
 
 ## Important Notes
 
-#### Security:
+### Security:
 
 Email credentials are embedded in the code as plain text. For a production environment, it is recommended to use a secret manager or environment variables to protect sensitive information.
 
-#### Outlook Layout Dependency:
+### Outlook Layout Dependency:
 
 The Outlook Online layout changes frequently. If the script stops working correctly, it might be necessary to adjust the selectors or commands used to interact with the interface.
 
@@ -50,11 +50,11 @@ The Outlook Online layout changes frequently. If the script stops working correc
 
 ## Script Execution
 
-#### .py Format:
+### .py Format:
 
 * Run the script directly using the command: python script.py.
 
-#### .ipynb Format:
+### .ipynb Format:
 
 * Open the notebook in a Jupyter environment and execute the cells sequentially.
 
@@ -88,7 +88,7 @@ Este projeto realiza a análise de dados de um arquivo Excel, gera insights e en
 
 ## Funcionalidades
 
-#### Análise de Dados:
+### Análise de Dados:
 
 O script processa os dados do arquivo Excel para identificar:
 
@@ -96,21 +96,21 @@ O script processa os dados do arquivo Excel para identificar:
 
 * A loja com maior faturamento e o valor correspondente.
 
-#### Envio Automatizado de E-mail:
+### Envio Automatizado de E-mail:
 
 * Utiliza o Selenium para acessar o Outlook na web e enviar automaticamente um e-mail contendo os insights gerados.
 
-#### Logout e Fechamento do Navegador:
+### Logout e Fechamento do Navegador:
 
 * Após o envio do e-mail, o script realiza logout do Outlook e fecha o navegador para garantir segurança e limpeza do ambiente.
 
 ## Observações Importantes
 
-#### Segurança:
+### Segurança:
 
 As credenciais do e-mail estão embutidas no código como texto plano. Para um ambiente de produção, recomenda-se o uso de um gerenciador de segredos ou variáveis de ambiente para proteger informações sensíveis.
 
-#### Dependência do Layout do Outlook:
+### Dependência do Layout do Outlook:
 
 O layout do Outlook Online muda com frequência. Caso o script pare de funcionar corretamente, pode ser necessário ajustar os seletores ou comandos usados para interagir com a interface.
 
@@ -128,11 +128,11 @@ O layout do Outlook Online muda com frequência. Caso o script pare de funcionar
 
 ## Execução do Script
 
-#### Formato .py:
+### Formato .py:
 
 * Execute o script diretamente com o comando: python script.py.
 
-#### Formato .ipynb:
+### Formato .ipynb:
 
 * Abra o notebook em um ambiente Jupyter e execute as células sequencialmente.
 
