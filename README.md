@@ -8,7 +8,7 @@ This project performs data analysis on an Excel file, generates insights, and au
 
 * Jupyter Notebook: script.ipynb
 
-### Features
+## Features
 
 #### Data Analysis:
 
@@ -26,7 +26,7 @@ The script processes data from the Excel file to identify:
 
 * After sending the email, the script logs out of Outlook and closes the browser to ensure security and clean up the environment.
 
-### Important Notes
+## Important Notes
 
 #### Security:
 
@@ -36,7 +36,7 @@ Email credentials are embedded in the code as plain text. For a production envir
 
 The Outlook Online layout changes frequently. If the script stops working correctly, it might be necessary to adjust the selectors or commands used to interact with the interface.
 
-### Requirements
+## Requirements
 
 * Install Python 3.7 or higher. You can download the latest version at [https://www.python.org/downloads/](https://www.python.org/downloads/).
 
@@ -48,7 +48,7 @@ The Outlook Online layout changes frequently. If the script stops working correc
 
 #### pip install pandas selenium webdriver-manager pyautogui pyperclip
 
-### Script Execution
+## Script Execution
 
 #### .py Format:
 
@@ -58,7 +58,7 @@ The Outlook Online layout changes frequently. If the script stops working correc
 
 * Open the notebook in a Jupyter environment and execute the cells sequentially.
 
-### Reason for the Two Formats
+## Reason for the Two Formats
 
 The script is available in both .py and .ipynb formats to cater to different needs:
 
@@ -66,11 +66,11 @@ The script is available in both .py and .ipynb formats to cater to different nee
 
 * .ipynb Format: Suitable for study, demonstrations, or experimentation in an interactive environment such as Jupyter Notebook.
 
-### Contributions
+## Contributions
 
 Contributions are welcome! Feel free to open issues or pull requests in this repository.
 
-### License
+## License
 
 This project is licensed under the MIT License.
 
@@ -86,7 +86,7 @@ Este projeto realiza a análise de dados de um arquivo Excel, gera insights e en
 
 * Notebook Jupyter: script.ipynb
 
-### Funcionalidades
+## Funcionalidades
 
 #### Análise de Dados:
 
@@ -104,7 +104,7 @@ O script processa os dados do arquivo Excel para identificar:
 
 * Após o envio do e-mail, o script realiza logout do Outlook e fecha o navegador para garantir segurança e limpeza do ambiente.
 
-### Observações Importantes
+## Observações Importantes
 
 #### Segurança:
 
@@ -114,7 +114,7 @@ As credenciais do e-mail estão embutidas no código como texto plano. Para um a
 
 O layout do Outlook Online muda com frequência. Caso o script pare de funcionar corretamente, pode ser necessário ajustar os seletores ou comandos usados para interagir com a interface.
 
-### Requisitos
+## Requisitos
 
 * Instale o Python 3.7 ou superior. Você pode baixar a versão mais recente em [https://www.python.org/downloads/](https://www.python.org/downloads/).
 
@@ -126,7 +126,7 @@ O layout do Outlook Online muda com frequência. Caso o script pare de funcionar
 
 #### pip install pandas selenium webdriver-manager pyautogui pyperclip
 
-### Execução do Script
+## Execução do Script
 
 #### Formato .py:
 
@@ -136,7 +136,7 @@ O layout do Outlook Online muda com frequência. Caso o script pare de funcionar
 
 * Abra o notebook em um ambiente Jupyter e execute as células sequencialmente.
 
-### Motivo para os Dois Formatos
+## Motivo para os Dois Formatos
 
 O script está disponível tanto no formato .py quanto no formato .ipynb para atender a diferentes necessidades:
 
@@ -144,11 +144,11 @@ O script está disponível tanto no formato .py quanto no formato .ipynb para at
 
 * Formato .ipynb: Adequado para estudos, demonstrações ou experimentações em um ambiente interativo, como o Jupyter Notebook.
 
-### Contribuições
+## Contribuições
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests neste repositório.
 
-### Licença
+## Licença
 
 Este projeto está licenciado sob a MIT License.
 
