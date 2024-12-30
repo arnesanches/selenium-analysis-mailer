@@ -2,7 +2,7 @@
 
 # Selenium Analysis Mailer
 
-This project performs data analysis on an Excel file, generates insights, and automatically sends an email with this information via Outlook. The script also logs out and closes the browser after completing the email sending process. The script is available in the following formats:
+This Python script combines the Selenium, Pandas, and PyAutoGUI libraries to automate the analysis of data from an Excel file and send a report with the results of this analysis via email through Outlook, optimizing workflow and saving time. The complete automation, including logout and browser closure, ensures the security and organization of the process. The script is available in the following formats:
 
 * Python File: script.py
 
@@ -12,7 +12,7 @@ This project performs data analysis on an Excel file, generates insights, and au
 
 ### Data Analysis:
 
-The script processes data from the Excel file to identify:
+Using the Pandas library, the script processes data from the Excel file to identify:
 
 * The best-selling product and its total quantity.
 
@@ -20,7 +20,7 @@ The script processes data from the Excel file to identify:
 
 ### Automated Email Sending:
 
-* Uses Selenium to access Outlook on the web and automatically send an email containing the generated insights.
+* It uses the Selenium and PyAutoGUI libraries to access Outlook on the web and automatically send an email containing the generated insights.
 
 ### Logout and Browser Closure:
 
@@ -80,7 +80,7 @@ This project is licensed under the MIT License.
 
 # Selenium Analysis Mailer
 
-Este projeto realiza a análise de dados de um arquivo Excel, gera insights e envia automaticamente um e-mail com essas informações através do Outlook. O script também realiza logout e fecha o navegador após concluir o envio do e-mail. O script está disponível nos seguintes formatos:
+Este script Python combina as bibliotecas Selenium, Pandas e PyAutoGUI para automatizar a análise de dados de um arquivo Excel e o envio de um relatório com os resultados dessa análise por e-mail através do Outlook, otimizando o fluxo de trabalho e economizando tempo. A automação completa, incluindo logout e fechamento do navegador, assegura a segurança e a organização do processo. O script está disponível nos seguintes formatos:
 
 * Arquivo Python: script.py
 
@@ -90,7 +90,7 @@ Este projeto realiza a análise de dados de um arquivo Excel, gera insights e en
 
 ### Análise de Dados:
 
-O script processa os dados do arquivo Excel para identificar:
+Utilizando a biblioteca Pandas, o script processa os dados do arquivo Excel para identificar:
 
 * O produto mais vendido e sua quantidade total.
 
@@ -98,7 +98,7 @@ O script processa os dados do arquivo Excel para identificar:
 
 ### Envio Automatizado de E-mail:
 
-* Utiliza o Selenium para acessar o Outlook na web e enviar automaticamente um e-mail contendo os insights gerados.
+* Utiliza as bibliotecas Selenium e PyAutoGUI para acessar o Outlook na web e enviar automaticamente um e-mail contendo os insights gerados.
 
 ### Logout e Fechamento do Navegador:
 
