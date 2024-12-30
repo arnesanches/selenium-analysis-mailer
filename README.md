@@ -38,6 +38,8 @@ The Outlook Online layout changes frequently. If the script stops working correc
 
 ### Requirements
 
+* Install Python 3.7 or higher. You can download the latest version at [https://www.python.org/downloads/](https://www.python.org/downloads/).
+
 * Ensure that the Excel file Vendas - Dez.xlsx is located in the same folder as the script. This file is essential for executing the code as it serves as the data source for the analysis.
 
 * Install the Google Chrome browser on your machine, as it is used by Selenium for automation.
@@ -64,9 +66,13 @@ The script is available in both .py and .ipynb formats to cater to different nee
 
 * .ipynb Format: Suitable for study, demonstrations, or experimentation in an interactive environment such as Jupyter Notebook.
 
-### Contact
+### Contributions
 
-If you encounter any issues or have suggestions, feel free to open an issue in this repository!
+Contributions are welcome! Feel free to open issues or pull requests in this repository.
+
+### License
+
+This project is licensed under the MIT License.
 
 ---
 
@@ -110,6 +116,8 @@ O layout do Outlook Online muda com frequência. Caso o script pare de funcionar
 
 ### Requisitos
 
+* Instale o Python 3.7 ou superior. Você pode baixar a versão mais recente em [https://www.python.org/downloads/](https://www.python.org/downloads/).
+
 * Certifique-se de que o arquivo Excel Vendas - Dez.xlsx esteja localizado na mesma pasta que o script. Este arquivo é essencial para a execução do código, pois serve como fonte de dados para a análise.
 
 * Instale o navegador Google Chrome na máquina, pois ele é usado pelo Selenium para automação.
@@ -136,7 +144,12 @@ O script está disponível tanto no formato .py quanto no formato .ipynb para at
 
 * Formato .ipynb: Adequado para estudos, demonstrações ou experimentações em um ambiente interativo, como o Jupyter Notebook.
 
-### Contato
+### Contribuições
 
-Se encontrar problemas ou tiver sugestões, sinta-se à vontade para abrir uma issue neste repositório!
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests neste repositório.
+
+### Licença
+
+Este projeto está licenciado sob a MIT License.
+
 
