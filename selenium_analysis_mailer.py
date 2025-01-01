@@ -67,7 +67,7 @@ try:
     pyautogui.press('enter')
     time.sleep(2)
     pyautogui.press('enter')
-    time.sleep(5)
+    time.sleep(7)
     # Direciona para a opção "Novo email"
     pyautogui.hotkey('crtl', 'alt')
     pyautogui.press('tab')
