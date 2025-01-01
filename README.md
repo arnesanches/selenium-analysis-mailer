@@ -1,44 +1,44 @@
-### English
+#### English
 
 # Selenium Analysis Mailer
 
-### Description
-
-This repository contains a script that performs data analysis on an Excel file, generates insights, and automatically sends an email with this information via Outlook. The script also logs out and closes the browser after completing the email sending process. The script is available in the following formats:
+This Python script combines the Selenium, Pandas, and PyAutoGUI libraries to automate the analysis of data from an Excel file and send a report with the results of this analysis via email through Outlook, optimizing workflow and saving time. The complete automation, including logout and browser closure, ensures the security and organization of the process. The script is available in the following formats:
 
 * Python File: script.py
 
 * Jupyter Notebook: script.ipynb
 
-### Features
+## Features
 
-#### Data Analysis:
+### Data Analysis:
 
-The script processes data from the Excel file to identify:
+Using the Pandas library, the script processes data from the Excel file to identify:
 
 * The best-selling product and its total quantity.
 
 * The store with the highest revenue and its corresponding value.
 
-#### Automated Email Sending:
+### Automated Email Sending:
 
-* Uses Selenium to access Outlook on the web and automatically send an email containing the generated insights.
+* It uses the Selenium and PyAutoGUI libraries to access Outlook on the web and automatically send an email containing the generated insights.
 
-#### Logout and Browser Closure:
+### Logout and Browser Closure:
 
 * After sending the email, the script logs out of Outlook and closes the browser to ensure security and clean up the environment.
 
-### Important Notes
+## Important Notes
 
-#### Security:
+### Security:
 
 Email credentials are embedded in the code as plain text. For a production environment, it is recommended to use a secret manager or environment variables to protect sensitive information.
 
-#### Outlook Layout Dependency:
+### Outlook Layout Dependency:
 
 The Outlook Online layout changes frequently. If the script stops working correctly, it might be necessary to adjust the selectors or commands used to interact with the interface.
 
-### Requirements
+## Requirements
+
+* Install Python 3.7 or higher. You can download the latest version at [https://www.python.org/downloads/](https://www.python.org/downloads/).
 
 * Ensure that the Excel file Vendas - Dez.xlsx is located in the same folder as the script. This file is essential for executing the code as it serves as the data source for the analysis.
 
@@ -48,17 +48,17 @@ The Outlook Online layout changes frequently. If the script stops working correc
 
 #### pip install pandas selenium webdriver-manager pyautogui pyperclip
 
-### Script Execution
+## Script Execution
 
-#### .py Format:
+### .py Format:
 
 * Run the script directly using the command: python script.py.
 
-#### .ipynb Format:
+### .ipynb Format:
 
 * Open the notebook in a Jupyter environment and execute the cells sequentially.
 
-### Reason for the Two Formats
+## Reason for the Two Formats
 
 The script is available in both .py and .ipynb formats to cater to different needs:
 
@@ -66,53 +66,57 @@ The script is available in both .py and .ipynb formats to cater to different nee
 
 * .ipynb Format: Suitable for study, demonstrations, or experimentation in an interactive environment such as Jupyter Notebook.
 
-### Contact
+## Contributions
 
-If you encounter any issues or have suggestions, feel free to open an issue in this repository!
+Contributions are welcome! Feel free to open issues or pull requests in this repository.
+
+## License
+
+This project is licensed under the MIT License.
 
 ---
 
-### Português 
+#### Português 
 
 # Selenium Analysis Mailer
 
-### Descrição
-
-Este repositório contém um script que realiza a análise de dados de um arquivo Excel, gera insights e envia automaticamente um e-mail com essas informações através do Outlook. O script também realiza logout e fecha o navegador após concluir o envio do e-mail. O script está disponível nos seguintes formatos:
+Este script Python combina as bibliotecas Selenium, Pandas e PyAutoGUI para automatizar a análise de dados de um arquivo Excel e o envio de um relatório com os resultados dessa análise por e-mail através do Outlook, otimizando o fluxo de trabalho e economizando tempo. A automação completa, incluindo logout e fechamento do navegador, assegura a segurança e a organização do processo. O script está disponível nos seguintes formatos:
 
 * Arquivo Python: script.py
 
 * Notebook Jupyter: script.ipynb
 
-### Funcionalidades
+## Funcionalidades
 
-#### Análise de Dados:
+### Análise de Dados:
 
-O script processa os dados do arquivo Excel para identificar:
+Utilizando a biblioteca Pandas, o script processa os dados do arquivo Excel para identificar:
 
 * O produto mais vendido e sua quantidade total.
 
 * A loja com maior faturamento e o valor correspondente.
 
-#### Envio Automatizado de E-mail:
+### Envio Automatizado de E-mail:
 
-* Utiliza o Selenium para acessar o Outlook na web e enviar automaticamente um e-mail contendo os insights gerados.
+* Utiliza as bibliotecas Selenium e PyAutoGUI para acessar o Outlook na web e enviar automaticamente um e-mail contendo os insights gerados.
 
-#### Logout e Fechamento do Navegador:
+### Logout e Fechamento do Navegador:
 
 * Após o envio do e-mail, o script realiza logout do Outlook e fecha o navegador para garantir segurança e limpeza do ambiente.
 
-### Observações Importantes
+## Observações Importantes
 
-#### Segurança:
+### Segurança:
 
 As credenciais do e-mail estão embutidas no código como texto plano. Para um ambiente de produção, recomenda-se o uso de um gerenciador de segredos ou variáveis de ambiente para proteger informações sensíveis.
 
-#### Dependência do Layout do Outlook:
+### Dependência do Layout do Outlook:
 
 O layout do Outlook Online muda com frequência. Caso o script pare de funcionar corretamente, pode ser necessário ajustar os seletores ou comandos usados para interagir com a interface.
 
-### Requisitos
+## Requisitos
+
+* Instale o Python 3.7 ou superior. Você pode baixar a versão mais recente em [https://www.python.org/downloads/](https://www.python.org/downloads/).
 
 * Certifique-se de que o arquivo Excel Vendas - Dez.xlsx esteja localizado na mesma pasta que o script. Este arquivo é essencial para a execução do código, pois serve como fonte de dados para a análise.
 
@@ -122,17 +126,17 @@ O layout do Outlook Online muda com frequência. Caso o script pare de funcionar
 
 #### pip install pandas selenium webdriver-manager pyautogui pyperclip
 
-### Execução do Script
+## Execução do Script
 
-#### Formato .py:
+### Formato .py:
 
 * Execute o script diretamente com o comando: python script.py.
 
-#### Formato .ipynb:
+### Formato .ipynb:
 
 * Abra o notebook em um ambiente Jupyter e execute as células sequencialmente.
 
-### Motivo para os Dois Formatos
+## Motivo para os Dois Formatos
 
 O script está disponível tanto no formato .py quanto no formato .ipynb para atender a diferentes necessidades:
 
@@ -140,7 +144,12 @@ O script está disponível tanto no formato .py quanto no formato .ipynb para at
 
 * Formato .ipynb: Adequado para estudos, demonstrações ou experimentações em um ambiente interativo, como o Jupyter Notebook.
 
-### Contato
+## Contribuições
 
-Se encontrar problemas ou tiver sugestões, sinta-se à vontade para abrir uma issue neste repositório!
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests neste repositório.
+
+## Licença
+
+Este projeto está licenciado sob a MIT License.
+
 
