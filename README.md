@@ -59,7 +59,9 @@ The Outlook Online layout changes frequently. If the script stops working correc
 * Run the script by clicking the 'Run' button or using the command:
 
   '''bash
+  
   python script.py
+
   '''
 
 ### .ipynb Format:
@@ -143,8 +145,10 @@ O layout do Outlook Online muda com frequência. Caso o script pare de funcionar
 * Execute o script clicando no botão 'Run' ou através do comando:
 
 '''bash
+
   python script.py
-  '''
+
+'''
   
 ### Formato .ipynb:
 
