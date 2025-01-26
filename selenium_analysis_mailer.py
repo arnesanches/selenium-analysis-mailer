@@ -96,7 +96,7 @@ try:
     time.sleep(5)
 
     # Navega com a tecla Tab até acessar a opção "Sair" para realizar o logout
-    for i in range(24):
+    for i in range(25):
         pyautogui.press('tab')
 
     time.sleep(2)
