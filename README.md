@@ -1,3 +1,7 @@
+#### Project Demonstration / Demonstração do Projeto
+
+![Project Demonstration / Demonstração do Projeto](https://github.com/arnesanches/selenium-analysis-mailer/blob/main/Anima%C3%A7%C3%A3o.gif?raw=true)
+
 #### English
 
 # Selenium Analysis Mailer
@@ -52,11 +56,17 @@ The Outlook Online layout changes frequently. If the script stops working correc
 
 ### .py Format:
 
-* Run the script directly using the command: python script.py.
+* Run the script by clicking the 'Run' button or using the command:
+
+  ```bash
+  
+  python script.py
 
 ### .ipynb Format:
 
 * Open the notebook in a Jupyter environment and execute the cells sequentially.
+
+If you wish to interrupt the automation before it is completed, position the mouse pointer in the top left corner of the screen and wait for about five seconds.
 
 ## Reason for the Two Formats
 
@@ -74,6 +84,7 @@ Contributions are welcome! Feel free to open issues or pull requests in this rep
 
 This project is licensed under the MIT License.
 
+##
 ---
 
 #### Português 
@@ -130,11 +141,17 @@ O layout do Outlook Online muda com frequência. Caso o script pare de funcionar
 
 ### Formato .py:
 
-* Execute o script diretamente com o comando: python script.py.
+* Execute o script clicando no botão 'Run' ou através do comando:
 
+  ```bash
+
+  python script.py
+  
 ### Formato .ipynb:
 
 * Abra o notebook em um ambiente Jupyter e execute as células sequencialmente.
+
+Caso queira interromper a automação antes de ser concluída, direcione a seta do mouse para o canto superior esquerdo da tela e aguarde cerca de cinco segundos.
 
 ## Motivo para os Dois Formatos
 
@@ -152,4 +169,5 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull r
 
 Este projeto está licenciado sob a MIT License.
 
-
+##
+---
